@@ -1,0 +1,13 @@
+https://huggingface.co/docs/transformers/model_doc/bert
+https://huggingface.co/dumitrescustefan/bert-base-romanian-cased-v1
+This project is a BERT model based with the pretraining made by Dumitrescu Stefan on a 15GB Romanian corpus
+
+We fine-tuned a variable number of encoders and the others were frozen
+https://huggingface.co/dumitrescustefan/bert-base-romanian-cased-v1
+
+tokenizer is taken from the dumitrescustefan's pretrained BERT module from huggingface
+https://huggingface.co/dumitrescustefan/bert-base-romanian-cased-v1
+Model is pretrained by Dumitrescu
+
+Some ideas were taken from here about the -100 crossEntropyLoss default ignored index so we made the padding/other tokens -100
+https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb#scrollTo=0jDNXrjr-6BW
